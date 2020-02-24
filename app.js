@@ -22,6 +22,7 @@ function CookieStore(location, minCustomers, maxCustomers, avgSale) {
     for (var i = 0; i < hours.length; i++){
       this.avgCustomersHour = Math.ceil(Math.random() * (this.maxCustomers - this.minCustomers + 1) + this.minCustomers);
       this.customersArray.push(this.avgCustomersHour);
+      console.log(this.customersArray);
     }
   };
   this.getAvgCookiesHour = function(){
