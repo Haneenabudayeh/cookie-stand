@@ -3,11 +3,11 @@ html, body {
     padding: 0;
   }
   
-  /* body {
-    background-image: url("images/brightwood.jpg");
+  body {
+   
     background-repeat: repeat-y;
   }
-   */
+  
   img {
     height: 100%
   }
@@ -32,7 +32,7 @@ html, body {
   
   nav li {
     display: inline-block;
-    float: right;
+
     padding: 15px 20px 0px 10px;
     height: 35px;
     font-family: 'Oswald', sans-serif;
